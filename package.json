@@ -55,6 +55,6 @@
   },
   "scripts": {
     "changelog": "./node_modules/.bin/github-changes -o oauthjs -r angular-oauth2 -a --only-pulls --use-commit-body --title 'Changelog' --date-format '/ YYYY-MM-DD'",
-    "test": "./node_modules/.bin/gulp test --browsers Firefox"
+    "test": "./node_modules/.bin/gulp test"
   }
 }
